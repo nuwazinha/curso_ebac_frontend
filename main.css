@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(191, 238, 244);
+    padding: 16px 0;
+    color: #f6bacc;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a{
+    color: rgb(113, 16, 140);
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 100px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: lightcoral;
+    color: purple;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articles article a:hover{
+    text-decoration: underline
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esportes{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .articles article a{
+    background-color: rgba(0, 255, 0, 0.2);
+    color: #285366;
+}
+
+#economia{
+    background-color: rgb(255, 255, 189);
+}
+
+#economia .articles article a{
+    background-color: rgb(173, 173, 105);
+    color: #6e3647;
+}
+
+#entretenimento{
+    background-color: rgb(247, 223, 191);
+}
+
+#entretenimento .articles article a{
+    background-color: rgba(185, 115, 115, 0.61);
+    color: brown;
+}
+
+#tecnologia{
+    background-color: rgb(210, 243, 243);
+}
+
+#tecnologia .articles article a{
+    background-color: rgb(56, 107, 107);
+    color: aquamarine;
+}
