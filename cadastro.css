@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(67, 18, 18);
+    color: bisque;
+    font-family: 'SPQR', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+header li{
+    display: inline;
+    padding-right: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(158, 113, 113);
+}
+
+header a:hover{
+    color: bisque;
+}
+
+body{
+    background-image: url(./img/background2.png);
+}
+
+/*form*/
+
+.container{
+    background-color: rgba(100, 8, 8, 0.905);
+    display: block;
+    margin: 3% 36%;
+    border: 2px solid;
+    border-color: rgb(81, 23, 23);
+    border-radius: 15px;
+    color: bisque;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: 5%;
+}
+
+#name,
+#email,
+textarea{
+    border-radius: 8px;
+    width: 100%;
+}
+
+#name:focus, #email:focus, textarea:focus{
+    background-color: rgba(147, 117, 117, 0.201);
+}
+
+form label{
+    margin: 2%;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    border: none;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-width: 200px;
+    height: 80px;
+}
+
+button{
+    border: 2px solid rgb(99, 12, 12);
+    color: rgb(99, 12, 12);
+    background-color: rgb(230, 212, 172);
+    padding: 8px 10px;
+}
+button:hover{
+    border: 2px solid rgb(230, 212, 172);
+    color: rgb(230, 212, 172);
+    background-color: rgb(99, 12, 12);
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(67, 18, 18);
+    color: bisque;
+    display: flex;
+    justify-content: center;
+}

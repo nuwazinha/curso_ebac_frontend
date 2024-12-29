@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(67, 18, 18);
+    color: bisque;
+    font-family: 'SPQR', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+header li{
+    display: inline;
+    padding-right: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(158, 113, 113);
+}
+
+header a:hover{
+    color: bisque;
+}
+
+.tudo{
+    background-image: url(./img/background2.png);
+    min-width: 500px;
+    display: flex;
+}
+
+.sem-header{
+    margin: 2% 5%;
+}
+
+/*SOBRE*/
+
+
+.about{
+    background-color: rgba(250, 235, 215, 0.905);
+    border-radius: 15px;
+}
+
+
+p{
+    padding: 10px 15px;
+}
+
+.cima{
+    padding-top: 24px;
+}
+
+.baixo{
+    padding-bottom: 24px;
+}
+
+.container{
+    margin: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: xx-large;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline overline rgb(139, 25, 25);
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.Sobre{
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+h4{
+    font-family: 'SPQR', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*CASAS*/
+
+.Gryffindor,
+.Ravenclaw,
+.Hufflepuff,
+.Slytherin{
+    border: 1px solid;
+    border-style:inset;
+    border-radius: 20px;
+    max-width: 270px;
+}
+
+.container-casas{
+    display: flex;
+    justify-content: center;
+}
+
+.Gryffindor{
+    background-color: rgb(107, 18, 18);
+}
+
+.Ravenclaw{
+    background-color: rgb(37, 95, 126);
+}
+
+.Hufflepuff{
+    background-color: rgb(144, 129, 46);
+}
+
+.Slytherin{
+    background-color: rgb(30, 122, 30);
+}
+
+li img{
+    height: 200px;
+    margin: auto 50px;
+}
+
+.brasao{
+    display: flex;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.905);
+    border-radius: 15px;
+}
+
+.bra h2{
+    display: flex;
+    justify-content: center;
+}
+
+.brasao img{
+    height: 150px;
+}
+
+/*disciplinas*/
+
+.avali{
+    background-color: rgba(250, 235, 215, 0.905);
+    border-radius: 15px;
+}
+
+/*TABELA*/
+
+.tabela:nth-child(even){
+    background-color: rgba(250, 235, 215, 0.905);
+    border-radius: 15px;
+    padding: 2%
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+    border-collapse: collapse;
+}
+table{
+    display: block;
+    max-width: 700px;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(67, 18, 18);
+    color: bisque;
+    display: flex;
+    justify-content: center;
+}
